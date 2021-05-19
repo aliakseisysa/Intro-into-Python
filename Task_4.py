@@ -5,6 +5,6 @@ while user_number > 0:
     if last_number >= max_number:
         max_number = last_number
         print(max_number)
-    if last_number < max_number:
+    else:
         print(max_number)
     user_number //= 10

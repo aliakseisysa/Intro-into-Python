@@ -1,2 +1,5 @@
 any_number = int(input("Enter any number between 0 and 9: "))
 print(f"Sum of {str(any_number)}, {str(any_number) + str(any_number)} and {str(any_number) + str(any_number) + str(any_number)} = {any_number + (10 * any_number + any_number) + (100 * any_number + 10 * any_number + any_number)}")
+print(f"Sum of {str(any_number)}, {str(any_number)*2} and {str(any_number)*3} = {any_number + (10 * any_number + any_number) + (100 * any_number + 10 * any_number + any_number)}")
+any_number = input("Enter any number between 0 and 9: ")
+print(f"Sum of {any_number}, {any_number*2} and {any_number*3} = {int(any_number) + int(any_number + any_number) + int(any_number + any_number + any_number)}")

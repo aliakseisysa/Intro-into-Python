@@ -4,5 +4,4 @@ day = 1
 while run_dist < task_dist:
     run_dist = 1.1*run_dist
     day += 1
-if run_dist >= task_dist:
-    print(day)
+print(day)
